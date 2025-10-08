@@ -139,7 +139,7 @@ public final class FeatureFlags {
             "ENABLE_LAUNCHER_PREVIEW_IN_GRID_PICKER", true, "Show launcher preview in grid picker");
 
     public static final BooleanFlag ENABLE_OVERVIEW_ACTIONS = getDebugFlag(
-            "ENABLE_OVERVIEW_ACTIONS", true, "Show app actions instead of the shelf in Overview."
+            "ENABLE_OVERVIEW_ACTIONS", false, "Show app actions instead of the shelf in Overview."
             + " As part of this decoupling, also distinguish swipe up from nav bar vs above it.");
 
     // Keep as DeviceFlag for remote disable in emergency.
