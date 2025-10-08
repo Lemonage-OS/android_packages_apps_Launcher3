@@ -18,5 +18,6 @@
 */
 -->
 <resources>
+    <color name="all_apps_bg_search">#1f1f22</color>
     <color name="app_info_bottom_sheet_bg">@*android:color/monet_background_lStar_6</color>
 </resources>
